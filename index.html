@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Guessing Game</title>
+<style>
+    
+    
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+background-color: rgb(124, 150, 211);
+
+}
+
+input[type="number"] {
+	width: 50px;
+	height: 20px;
+	font-size: 18px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#result {
+	font-size: 24px;
+	font-weight: bold;
+}
+</style>
+</head>
+<body>
+    <center>
+	<h1>Number Guessing Game</h1>
+	<p>Guess a number between 1 and 200:</p>
+	<input type="number" id="guess">
+	<button onclick="checkGuess()">Guess</button>
+	<p id="result"></p>
+</center>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
